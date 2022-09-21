@@ -3,7 +3,7 @@
 /**
  * _strlen - returns the length of a string
  * @s: string
- * Return: returns the length as an integer;
+ * Return: returns the length as integer;
  */
 
 int _strlen(char *s)
@@ -36,6 +36,7 @@ char *cap_string(char *str)
 				str[index - 1] == '\n' ||
 				str[index - 1] == ',' ||
 				str[index - 1] == ';' ||
+				str[index - 1] == '.' ||
 				str[index - 1] == '!' ||
 				str[index - 1] == '?' ||
 				str[index - 1] == '"' ||
